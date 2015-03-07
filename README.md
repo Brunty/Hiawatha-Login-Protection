@@ -4,7 +4,7 @@ Plugin to ban repeated failed login attempts on [Hiawatha](https://www.hiawatha-
 
 You need to make sure you've got the BanByCGI option enabled and setup correctly in your Hiawatha configuration file.
 
-    **BanByCGI = yes|no[, <max value>]**.
+    BanByCGI = yes|no[, <max value>]g
     
 ## Notes
 
