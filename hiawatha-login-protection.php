@@ -9,14 +9,6 @@
  * License: MIT
  */
 
-/*
-http://ottopress.com/2009/wordpress-settings-api-tutorial/
-http://codex.wordpress.org/Creating_Options_Pages
-http://codex.wordpress.org/Writing_a_Plugin#Saving_Plugin_Data_to_the_Database
-http://codex.wordpress.org/Writing_a_Plugin
-http://codex.wordpress.org/Creating_Tables_with_Plugins
- */
-
 defined( 'ABSPATH' ) or die();
 
 include_once "hiawathaplugin.php"; // no idea how class autoloading works in WordPress, this'll do for now - only a simple plugin.
