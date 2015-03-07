@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name: Hiawatha Login Protection
- * Plugin URI: http://mfyu.co.uk/code/hiawatha-login-protection
+ * Plugin URI: https://github.com/Brunty/Hiawatha-Login-Protection
  * Description: Plugin to ban repeated failed login attempts on <a href="https://www.hiawatha-webserver.org/">Hiawatha</a> servers via the <a href="https://www.hiawatha-webserver.org/manpages/hiawatha">BanByCGI option</a>. You need to make sure you've got the BanByCGI option enabled and setup correctly in your Hiawatha configuration file. <strong>BanByCGI = yes|no[, &lt;max value&gt;]</strong>. If you have any other plugins that alter logins, or interact with the WordPress authentication system, this plugin may not function as expected. Also, if another function implements this function already, this plugin won't do anything.
  * Version: 0.0.1
  * Author: Matt Brunt
  * Author URI: http://mfyu.co.uk
- * License: MIT
+ * License: GPLv2 or later.
  */
 
 defined( 'ABSPATH' ) or die();
